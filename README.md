@@ -1,2 +1,0 @@
-# webDevBasic
-learning webdev
