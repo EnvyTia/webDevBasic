@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pagetesting</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- headings  -->
-    <h1>there's 6 level of headings. this is heading 1</h1>
+    <h1>6 level of headings. this is heading 1</h1>
     <h2>this is heading 2</h2>
     <h3>this is heading 3</h3>
     <h4>this is heading 4</h4>
@@ -53,7 +54,118 @@
     <dl>
         <dt>Item</dt>
         <dd>The definition goes here</dd>
+        <dt>item2</dt>
+        <dd>item2 def</dd>
     </dl>
+
+    <b>nested list</b>
+    <ul>
+        <li>
+            nested one
+            <ol>
+                <li>example1</li>
+                <li>example2</li>
+                <li>example3</li>
+            </ol>
+        </li>
+        <li>
+            nested two
+            <ol>
+                <li>example1</li>
+                <li>example2</li>
+                <li>example3</li>
+            </ol>
+        </li>
+        
+    </ul>
+
+    <p>then goes another one
+        u can use ths type to define
+        <cite>Citation</cite>
+        and acronym <acronym title="Babi panggang karo">BPK</acronym>
+        <br>there's also <blockquote>blockquote</blockquote>
+    </p>
+
+    <table>
+        <tr>
+            <td>Row 1, cell 1</td>
+            <td>Row 1, cell 2</td>
+            <td>Row 1, cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, cell 1</td>
+            <td>Row 2, cell 2</td>
+            <td>Row 2, cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, cell 1</td>
+            <td>Row 3, cell 2</td>
+            <td>Row 3, cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 4, cell 1</td>
+            <td>Row 4, cell 2</td>
+            <td>Row 4, cell 3</td>
+        </tr>
+    </table>
+
+    <b>input text</b>
+    <input type="text">
+    <br>
+    <b>input pw</b>
+    <input type="password"><br>
+    <b>input checkbox</b>
+    <input type="checkbox"><br>
+    <b>input radio</b>
+    <input type="radio"><br>
+    <b>submit</b>
+    <input type="submit" value="submit"><br>
+    <p>textarea is, basically, a large, multi-line textbox. <br>The anticipated number of rows and columns can be defined <br>with rows and cols attributes, although you can manipulate <br>the size to your heart’s content using CSS.
+    </p><br>
+    <textarea rows="5" cols="20">A big load of text</textarea>
+    <br><p>option</p><br>
+    <select>
+        <option>Option 1</option>
+        <option>Option 2</option>
+        <option value="third option">Option 3</option>
+    </select>
+
+    <form action="contactus.php" method="post">
+
+        <p>Name:</p>
+        <p><input type="text" name="name" value="Your name"></p>
+    
+        <p>Species:</p>
+        <p><input name="species"></p>
+        <!-- remember: 'type="text"' isn't actually necessary -->
+    
+        <p>Comments: </p>
+        <p><textarea name="comments" rows="5" cols="20">Your comments</textarea></p>
+    
+        <p>Are you:</p>
+        <p><input type="radio" name="areyou" value="male"> Male</p>
+        <p><input type="radio" name="areyou" value="female"> Female</p>
+        <p><input type="radio" name="areyou" value="hermaphrodite"> An hermaphrodite</p>
+        <p><input type="radio" name="areyou" value="asexual"> Asexual</p>
+    
+        <p><input type="submit"></p>
+    
+    </form>
+
+    <h2>CSS</h2>
+    <h3>Sizing</h3>
+    <ul>
+        <li>px (such as font-size: 12px) is the unit for pixels.</li>
+        <li>em (such as font-size: 2em) is the unit for the calculated size of a font. So “2em”, for example, is two times the current font size.</li>
+        <li>pt (such as font-size: 12pt) is the unit for points, for measurements typically in printed media.</li>
+        <li>% (such as width: 80%) is the unit for… wait for it… percentages.</li>
+    </ul>
+
+    <h3>Font weight</h3>
+    <p>font-weight states whether the text is bold or not. Most commonly this is used as font-weight: bold or font-weight: normal but other values are bolder, lighter, 100, 200, 300, 400 (same as normal), 500, 600, 700 (same as bold), 800 or 900.</p>
+
+    <h3>Font style</h3>
+    <p>font-style states whether the text is italic or not. It can be font-style: italic or font-style: normal.</p>
 
 
 </body>
